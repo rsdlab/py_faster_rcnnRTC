@@ -1,5 +1,6 @@
 ** 概要
 本コンポーネントは予め構築した深層学習モデルを用いて, 取得した画像を深層学習の処理にかけ物体認識を行う.
+また, 認識した対象物の情報を出力することが可能です.
 
 ** 開発環境
 言語： Python
@@ -14,7 +15,7 @@ cuDNN : cuDNN_v5
 　TimedCameraImage　型　: inImage
   画像を入力
 出力
-　TimedCameraImage　型　: inImage
+　TimedCameraImage　型　: outImage
   認識結果画像を出力
 ObjectParam　型 : outObjectParam
   認識した対象物の情報を出力
