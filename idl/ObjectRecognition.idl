@@ -1,0 +1,42 @@
+#ifndef OBJECTRECOGNITION_IDL
+#define OBJECTRECOGNITION_IDL
+
+#include <BasicDataType.idl>
+
+module ObjectRecognition {
+
+    /*!
+     * @struct ObjectParam
+     * @brief Parameter of recognition object 
+     */
+    struct ObjectParam
+    {
+        //Object name
+        string name;
+        //Width of recognition object
+        long width;
+        //Height of recognition object
+        long height;
+        //Starting point X of recognition object
+        long x;
+        //Starting point Y of recognition object
+        long y;
+    };
+    /*!
+     * @struct TimedObjectParam
+     * @brief Time-stamped version of Point2D.
+     */
+    struct TimedObjectParam
+    {
+        RTC::Time tm;
+        ObjectParam data;
+    };
+
+    struct TimedObjectParamSeq
+    {
+        RTC::Time tm;
+        sequence<ObjectParam> data;
+    };
+};
+
+#endif
