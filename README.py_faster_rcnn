@@ -22,7 +22,7 @@ ObjectParam　型 : outObjectParam
 
 ** 関連情報
 深層学習を用いた物体認識コンポーネント群
-URL : https://github.com/rsdlab/py_faster_rcnnRTC/blob/master/%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E7%89%A9%E4%BD%93%E8%AA%8D%E8%AD%98%E3%82%B3%E3%83%B3%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E7%BE%A4.pdf
+URL : https://github.com/rsdlab/py_faster_rcnnRTC/blob/master/%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E7%89%A9%E4%BD%93%E8%AA%8D%E8%AD%98%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E7%BE%A4.pdf
 
 物体認識インターフェース仕様書.pdf
 URL : https://github.com/rsdlab/py_faster_rcnnRTC/blob/master/%E7%89%A9%E4%BD%93%E8%AA%8D%E8%AD%98%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9%E4%BB%95%E6%A7%98%E6%9B%B8.pdf
